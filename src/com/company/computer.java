@@ -3,9 +3,10 @@ package com.company;
 import java.util.Random;
 
 public class computer extends player{
+    Random r1 = new Random();
+
     @Override
     public void getUserInput() {
-        Random r1 = new Random();
         int randomNumber = r1.nextInt(3);    /* generating random number */
 
         System.out.print("Computer Selects : ");
