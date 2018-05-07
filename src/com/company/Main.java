@@ -60,9 +60,11 @@ public class Main {
                     break;
                 case "3":
                     System.out.println("\n HISTORY : ");
-                    for(int i = 0; i < history.size() ; i++)
+                    for(int i = 0; i < history.size() ; i++) {
+                        System.out.print("Record "+(i+1)+": ");
                         history.get(i).print();
-                    System.out.println("-----------------2");
+                    }
+                    System.out.println("-----------------");
                     break;
                 case "4":
                     System.out.println("Thanks for Playing!");
